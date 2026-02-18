@@ -113,6 +113,64 @@ DTOs)(Opcional, caso fizer será um diferencial para o teste).
       Exemplo de implementação no ASP.NET Core.
       Chamando o endpoint: GET /api/produtos?pageNumber=1&pageSize=10
 
+  1.O nome do produto, caso seja informado em letras minúsculas, deve ser convertido para letras maiúsculas ao ser inserido no banco.
+
+  2. Obter Produtos (GET)
+  Objetivo: Implementar o método para listar todos os produtos disponíveis.
+  
+  Instruções:
+  
+  Recupere todos os produtos armazenados na base de dados.
+  
+  Laço de Repetição:
+  
+  Percorra a lista de produtos e aplique um filtro de exemplo (por exemplo, se o nome do produto contiver a palavra "promoção", adicione um marcador no nome do produto como "[Em Promoção]").
+  Ordenação de Lista:
+
+  Ordene os produtos pelo preço em ordem crescente (do mais barato para o mais caro).
+
+  3. Atualizar Produto (PUT)
+  Objetivo: Implementar o método para atualizar os dados de um produto existente.
+  
+  Validação:
+  
+  Verifique se o produto existe no banco de dados. Caso contrário, retorne um erro 404 - Not Found.
+  O preço não pode ser menor que zero.
+
+
+  4. Excluir Produto (DELETE)
+  Objetivo: Implementar o método para excluir um produto da base de dados.
+  
+  Instruções:
+  
+  O produto será identificado pelo Id.
+  
+  Verifique se o produto com o Id fornecido existe. Caso contrário, retorne um erro 404 - Not Found.
+  
+  Exclusão de Produto:
+  
+  Após excluir o produto, retorne um status 204 - No Content.
+  
+  5. Validação de Dados em Criar e Atualizar Produto
+  Objetivo: Adicionar validação de dados para garantir que as informações enviadas são válidas.
+  
+  Instruções:
+  
+  O nome do produto deve ser uma string não vazia. Caso contrário, o método deve retornar um erro 400 - Bad Request.
+  
+  O preço do produto deve ser maior que zero. Caso contrário, o método deve retornar um erro 400 - Bad Request.
+
+  Exemplo de Validação:
+  
+  Nome vazio: "nome": "" → Retornar 400 - Bad Request.
+  Preço negativo: "preco": -10.00 → Retornar 400 - Bad Request.
+  Exemplo de Resposta de Erro:
+  
+  json
+  {
+    "error": "O preço deve ser maior que zero."
+  }
+
 ✅ Critérios de Avaliação
 
 - Implementação correta dos requisitos funcionais e técnicos.
