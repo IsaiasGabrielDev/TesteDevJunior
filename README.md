@@ -113,9 +113,9 @@ DTOs)(Opcional, caso fizer será um diferencial para o teste).
       Exemplo de implementação no ASP.NET Core.
       Chamando o endpoint: GET /api/produtos?pageNumber=1&pageSize=10
 
-  1.O nome do produto, caso seja informado em letras minúsculas, deve ser convertido para letras maiúsculas ao ser inserido no banco.
+  4.1 O nome do produto, caso seja informado em letras minúsculas, deve ser convertido para letras maiúsculas ao ser inserido no banco.
 
-  2. Obter Produtos (GET)
+  4.2 Obter Produtos (GET)
   Objetivo: Implementar o método para listar todos os produtos disponíveis.
   
   Instruções:
@@ -129,7 +129,7 @@ DTOs)(Opcional, caso fizer será um diferencial para o teste).
 
   Ordene os produtos pelo preço em ordem crescente (do mais barato para o mais caro).
 
-  3. Atualizar Produto (PUT)
+  4.3 Atualizar Produto (PUT)
   Objetivo: Implementar o método para atualizar os dados de um produto existente.
   
   Validação:
@@ -138,7 +138,7 @@ DTOs)(Opcional, caso fizer será um diferencial para o teste).
   O preço não pode ser menor que zero.
 
 
-  4. Excluir Produto (DELETE)
+  4.4 Excluir Produto (DELETE)
   Objetivo: Implementar o método para excluir um produto da base de dados.
   
   Instruções:
@@ -151,7 +151,7 @@ DTOs)(Opcional, caso fizer será um diferencial para o teste).
   
   Após excluir o produto, retorne um status 204 - No Content.
   
-  5. Validação de Dados em Criar e Atualizar Produto
+  4.5 Validação de Dados em Criar e Atualizar Produto
   Objetivo: Adicionar validação de dados para garantir que as informações enviadas são válidas.
   
   Instruções:
