@@ -11,7 +11,7 @@ Este projeto consiste na criação de uma **API RESTful** em **C# com ASP.NET Co
 - **SQLite** (Banco de dados leve para armazenamento)
 - **HttpClient** (Consumo de API no cliente WinForms)
 
-📂 Estrutura do Projeto
+📂 Estrutura do Projeto(Opcional, caso fizer será um diferencial para o teste)
 
 ```
 📁 MinhaApiComSQLite
@@ -77,7 +77,8 @@ eficiência, segurança e manutenibilidade.
       - o Nome (string, deve ser descritivo e único)
 
   - Implementar paginação para a listagem de produtos.
-    
+
+  (Opcional, caso fizer será um diferencial para o teste)
   - Implementar uma lógica de desconto progressivo, onde:
     o Se a quantidade comprada for maior que 5, aplicar 5% de desconto.
     o Se for maior que 10, aplicar 10% de desconto.
@@ -94,9 +95,7 @@ eficiência, segurança e manutenibilidade.
     - Utilizar ASP.NET Core para desenvolver a API. 
     - Utilizar Entity Framework Core com SQLite para persistência de dados. 
     - Aplicar arquitetura em camadas separadas (Controllers, Services, Repositories, 
-DTOs). 
-    - Criar testes unitários para validar as funcionalidades críticas. 
-    - Utilizar WinForms para criar o aplicativo cliente que consome a API. 
+DTOs)(Opcional, caso fizer será um diferencial para o teste). 
     
 **3. Regras de Negócio Avançadas** 
     - O nome do produto deve ser armazenado sempre com a primeira letra 
@@ -119,6 +118,9 @@ DTOs).
 - Implementação correta dos requisitos funcionais e técnicos.
 - Uso de boas práticas de código e arquitetura.
 - Documentação clara e objetiva.
+
+Pedimos que realizem a entrega do teste dentro do prazo estabelecido, mesmo que a implementação não esteja totalmente concluída.
+Todo o conteúdo desenvolvido será considerado na avaliação, levando em conta a organização, as boas práticas adotadas e a abordagem técnica aplicada.
 
 ---
 
