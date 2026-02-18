@@ -102,7 +102,7 @@ DTOs)(Opcional, caso fizer será um diferencial para o teste).
     maiúscula. 
     - O preço do produto não pode ser negativo ou igual a zero. 
 
-**4. Instruções**
+**4. Instruções Gerais**
    - Criar uma documentação mínima explicando como rodar o projeto e exemplos de 
     requisições. 
    - Enviar um link para o repositório atualizado.
