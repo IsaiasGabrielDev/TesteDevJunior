@@ -27,13 +27,7 @@ Este projeto consiste na criação de uma **API RESTful** em **C# com ASP.NET Co
 
 🚀 Como Executar o Projeto
 
-1️⃣ Clonando o Repositório
-
-```bash
-git clone <URL_DO_REPOSITORIO>
-cd TesteDevAPI
-```
-
+1️⃣ Use o Template e Clone o Repositório
 
 2️⃣ Configurando o Banco de Dados
 
